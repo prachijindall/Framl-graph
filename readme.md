@@ -269,4 +269,5 @@ curl "https://framl-graph-2l3l.onrender.com/analytics/shortest-path?user1_id=U-0
 ## Author
 
 **Prachi Jindal**
-GitHub: https://github.com/prachijindall/Framl-graph
+
+GitHub: https://github.com/prachijindall/FRAML-GRAPH-USER-TRANSACTION-RELATIONSHIP-SYSTEM
