@@ -1,4 +1,4 @@
-# FRAML — User & Transaction Relationship Visualization System
+# FRAML GRAPH
 
 A graph-based system for visualizing relationships between user accounts using transaction data and shared attributes. Users and transactions are stored as nodes in a Neo4j graph database, relationships are detected automatically, and everything is explored through an interactive browser-based UI.
 
@@ -193,7 +193,7 @@ The script uses `MERGE` so it is safe to run multiple times without creating dup
 ### Start all services
 
 ```bash
-git clone https://github.com/prachijindall/Framl-graph
+git clone https://github.com/prachijindall/FRAML-GRAPH
 cd framl-graph
 docker compose up --build -d
 ```
@@ -270,4 +270,4 @@ curl "https://framl-graph-2l3l.onrender.com/analytics/shortest-path?user1_id=U-0
 
 **Prachi Jindal**
 
-GitHub: https://github.com/prachijindall/FRAML-GRAPH-USER-TRANSACTION-RELATIONSHIP-SYSTEM
+GitHub: https://github.com/prachijindall/FRAML-GRAPH

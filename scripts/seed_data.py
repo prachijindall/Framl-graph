@@ -93,7 +93,7 @@ def create_indexes():
         s.run("CREATE INDEX tx_device_idx IF NOT EXISTS FOR (t:Transaction) ON (t.device_id)")
         s.run("CREATE INDEX user_email_idx IF NOT EXISTS FOR (u:User) ON (u.email)")
         s.run("CREATE INDEX user_phone_idx IF NOT EXISTS FOR (u:User) ON (u.phone)")
-    print("   Indexes ready")
+    print(" Indexes ready")
 
 def save_users(users):
     print(f"Saving {len(users)} users...")
